@@ -1,3 +1,9 @@
+### To Run
+1. Create a virtual env and install `requirements.txt`
+2. from `api` directory run `flask run`
+3. in another terminal window, from `test-flask-react` run `npm start`
+4. go to `localhost:3000` in your web browser
+
 
 ### Technologies/Patterns Used
 

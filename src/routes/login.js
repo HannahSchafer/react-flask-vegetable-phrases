@@ -4,6 +4,7 @@ import { inject, observer } from 'mobx-react';
 import { authFields } from '../config.js';
 import { ACTIONS } from '../constants.js';
 import AuthInput from '../components/auth/authInput.js';
+
 import '../global.css'
 
 
