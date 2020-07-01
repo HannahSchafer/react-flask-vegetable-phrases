@@ -3,7 +3,7 @@ import React from 'react';
 
 const PhraseForm = (props) => {
   return (
-    <form className='ui form'>
+    <form onSubmit={props.addPhrase} className='ui form'>
      	<input
      		name='phraseContent'
     		type='text'
@@ -14,7 +14,7 @@ const PhraseForm = (props) => {
     	<button
     		onClick={props.addPhrase}
     		className='ui button green'>
-    		Generate Pair Count
+        Add Vegetable Phrase
     	</button>
  		</form>
   );

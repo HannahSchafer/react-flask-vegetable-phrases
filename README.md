@@ -7,16 +7,16 @@
 
 ### Technologies/Patterns Used
 
-Frameworks: React, Flask
-State Management: MobX
-Database: Sqlite
-Cache: Flask_Caching
-Bundler: Webpack
-Transpiler: Babel
-Internationalization: i18n
-Base Component/Styling Libraries: Boostrap, React-Bootstrap, mdbreact, SegmentUI
-Test Runner: Jest
-Styling: BEM, Flexbox
+1. Frameworks: React, Flask
+2. State Management: MobX
+3. Database: Sqlite
+4. Cache: Flask_Caching
+5. Bundler: Webpack
+6. Transpiler: Babel
+7. Internationalization: i18n
+8. Base Component/Styling Libraries: Boostrap, React-Bootstrap, mdbreact, SegmentUI
+9. Test Runner: Jest
+10. Styling: BEM, Flexbox
 
 ### Routes + Functionality
 
