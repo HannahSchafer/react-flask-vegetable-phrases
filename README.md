@@ -68,7 +68,7 @@ Signup
 ![alt text](public/assets/signup.png)
 
 Phrase
-![alt text](public/assets/vegetable_phrases.png)
+![alt text](public/assets/phrase.png)
 
 Home Desktop Upper
 ![alt text](public/assets/desktop_upper.png "desktop page - upper")
