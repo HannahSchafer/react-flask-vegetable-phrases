@@ -10,6 +10,7 @@ export const URLS = {
 	signup: '/signup',
 };
 
+// TODO: serve this mocked data from the API
 export const CARDS = [
   {
 	cardTitle: 'TYPE OF CONTENT',
