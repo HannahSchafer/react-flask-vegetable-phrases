@@ -29,7 +29,7 @@ class Phrase extends Component {
   };
 
 	async processPhrase(phrase) {
-		const response = await fetch('/process', { 
+		await fetch('/process', { 
       method: "POST",
       headers: {
         'Accept': 'application/json',
@@ -47,7 +47,7 @@ class Phrase extends Component {
 	};
 
 	async addPhrase() {
-		const response = await fetch('/phrase', { 
+		await fetch('/phrase', { 
       method: "POST",
       headers: {
         'Accept': 'application/json',

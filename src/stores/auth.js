@@ -34,7 +34,7 @@ class AuthStore {
   };
 
   async authenticate() {
-    const response = await fetch(URLS[this.userInfo.action], { 
+    await fetch(URLS[this.userInfo.action], { 
       method: "POST",
       headers: {
         'Accept': 'application/json',
@@ -73,6 +73,7 @@ decorate(AuthStore, {
   handleSubmit: action,
   userInfo: observable,
   response: observable,
+  errors: observable,
 })
 
 export default AuthStore;

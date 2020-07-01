@@ -34,5 +34,4 @@ const SignUp = inject('store')(observer(({store}) => {
 }
 ));
 
-
 export default SignUp;

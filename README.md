@@ -2,6 +2,7 @@
 ### Technologies/Patterns Used
 
 Frameworks: React, Flask
+State Management: MobX
 Database: Sqlite
 Cache: Flask_Caching
 Bundler: Webpack

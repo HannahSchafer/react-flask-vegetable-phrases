@@ -48,5 +48,4 @@ class App extends Component {
   }
 }
 
-// export default inject('store')(observer(App))
 export default (observer(App));
