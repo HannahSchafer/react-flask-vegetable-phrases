@@ -1,0 +1,26 @@
+.footer__container {
+  align-items: center;
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.footer__left-section {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer__container {
+    align-items: baseline;
+	  flex-direction: column;
+  }
+
+  .footer__left-section {
+    flex-direction: column;
+    width: initial;
+  }
+}

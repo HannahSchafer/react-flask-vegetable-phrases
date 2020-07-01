@@ -1,0 +1,10 @@
+.card-container {
+  background: #F8F8F8;
+  padding: 80px 0 80px 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-container {
+	padding: 0;
+  }
+}

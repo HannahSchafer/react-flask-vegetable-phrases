@@ -1,0 +1,31 @@
+.monkeyInfo__avatar {
+  height: 50px;
+  width: 50px;
+}
+
+.monkeyInfo__circle {
+  background: white;
+  border: 1px solid;
+  border-radius: 50%;
+  display: inline-block;
+  height: 50px;
+  margin-right: 10px;
+  overflow: hidden;
+  padding: 5px;
+  text-align: center;
+  width: 50px;
+}
+
+.monkeyInfo__container {
+  color: #808080;
+  display: flex;
+  padding-top: 20px;
+}
+
+.monkeyInfo__header {
+  font-weight: 600;
+}
+
+.monkeyInfo__subheader {
+  font-size: 12px;
+}

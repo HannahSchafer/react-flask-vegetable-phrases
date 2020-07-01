@@ -1,0 +1,27 @@
+.pipe {
+  display: block;
+}
+
+.policy-links__container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .pipe {
+    display: none;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .policy-links__container {
+  	flex-direction: column;
+    padding: 10px;
+  }
+
+  .policy-links__link {
+    padding-bottom: 10px;
+  }
+}

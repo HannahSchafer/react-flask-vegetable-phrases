@@ -1,0 +1,30 @@
+.hero__container {
+  display: flex;
+}
+
+.hero__content {
+  padding: 80px;
+}
+
+.hero__img {
+  width: 60%;
+  height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero__container { 
+	  flex-direction: column;
+  }
+
+  .hero__content {
+	  padding: 25px;
+  }
+
+  .hero__img { 
+	  width: 100%;
+  }
+
+  .hero__text {
+	  display: none;
+  }
+}

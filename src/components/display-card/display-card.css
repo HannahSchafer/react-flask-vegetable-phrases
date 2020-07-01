@@ -1,0 +1,22 @@
+.display-card__body {
+  padding: 40px;
+}
+
+.display-card__container {
+  display: flex;
+  margin-right: 20px;
+}
+
+.display-card__image {
+  height: auto;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .display-card__container { 
+	  flex-direction: column;
+	  margin: 0;
+	  padding: 15px 10px;
+  }
+}

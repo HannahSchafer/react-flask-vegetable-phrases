@@ -1,0 +1,29 @@
+.container-left {
+  text-align: left;
+  margin: 50px auto;
+  width: 60%;
+}
+
+.logo-sm {
+  height: 50px;
+}
+
+.logo-md {
+  height: 70px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+.ui.form input[type="text"],
+.ui.form input[type="date"],
+.ui.form input[type="email"],
+.ui.form input[type="password"] {
+  margin-bottom: 10px;
+}
+
+.vertical-margin-sm {
+  margin: 10px 0;
+}
